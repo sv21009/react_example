@@ -1,8 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='w-full flex flex-row justify-between p-6 bg-blue-500 text-white'>
+      <Link href={'/'} className='text-xl font-bold'>React example</Link>
+      <div>
+        <Link href={'/'}>Inicio</Link>
+      </div>
+    </div>
   )
 }
 
