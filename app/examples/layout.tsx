@@ -15,14 +15,18 @@ const ExamplesLayout = ({children}:IExampleLayoutProps) => {
           </div>
         </Link>
         <Link href={'/examples/1'}>
-          
           <div className='p-2 hover:bg-blue-400 hover:text-white border-b border-gray-300'>
             Ejemplo 1: Renderizar lista de objetos
           </div>
         </Link>
         <Link href={'/examples/2'}>
+          <div className='p-2 hover:bg-blue-400 hover:text-white border-b border-gray-300'>
+          Ejemplo 2: Capturar datos y almacenar en estado
+          </div>
+        </Link>
+        <Link href={'/examples/3'}>
           <div className='p-2 hover:bg-blue-400 hover:text-white'>
-            Ejemplo 2: Capturar datos y almacenar en estado
+            Ejemplo 3: Renderizar lista de un estado y manipular el estado
           </div>
         </Link>
       </div>
