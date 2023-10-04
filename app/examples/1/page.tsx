@@ -1,5 +1,5 @@
 import React, { HTMLAttributes } from 'react'
-import UserCard from '/home/sv21009/react_example/components/UserCard/page';
+import UserCard from '@/components/UserCard/page';
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -60,7 +60,7 @@ const Example1 = () => {
         users.map(
           (user, index) => {
             return (
-              <UserCard user={user} />
+              <UserCard key={user.id} user={user} />
             )
           }
         )

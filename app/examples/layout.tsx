@@ -1,7 +1,6 @@
 import Link from 'next/link'
-//import { Link } from "react-router-dom";
 import React, { ReactNode } from 'react'
-import {Rutas} from '/home/sv21009/react_example/app/utils/constants'
+import {Rutas} from '@/app/utils/constants'
 
 
 interface IExampleLayoutProps {

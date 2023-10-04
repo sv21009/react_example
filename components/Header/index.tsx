@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import {Rutas} from '/home/sv21009/react_example/app/utils/constants'
+import {Rutas} from '@/app/utils/constants'
 
 const Header = () => {
   return (
@@ -9,6 +9,7 @@ const Header = () => {
       <div className='flex flex-row gap-4'>
         <Link href={Rutas.Inicio}>Inicio</Link>
         <Link href={Rutas.Ejemplos}>Ejemplos</Link>
+        <Link href={Rutas.Grid}>Grid</Link>
       </div>
     </div>
   )
