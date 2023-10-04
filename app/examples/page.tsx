@@ -1,4 +1,13 @@
 import React from 'react'
+import { Metadata } from 'next'
+import { css } from "tailwindcss";
+
+
+export const metadata: Metadata = {
+  title: 'Ejemplos',
+  description: 'Aqui se encuentran todos los ejemplos',
+}
+
 
 const ExamplesHome = () => {
   return (
